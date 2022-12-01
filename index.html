@@ -4,117 +4,160 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/style/style.css" />
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script src="script.js" defer></script>
     <title>Genshin Impact Redesign Website</title>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img id="logo" src="/assets/image/logo_4.png" alt="Genshin Logo" />
-      </div>
+      <img id="logo" src="assets/image/logo_4.png" alt="Genshin Logo" />
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Featured</a>
-        <a href="#">About</a>
+        <a href="#" class="home">Home</a>
+        <a href="#" class="featured">Featured</a>
+        <a href="#" class="about">About</a>
       </nav>
     </header>
-    <div class="container">
-      <main>
-        <section class="first-content">
-          <article>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Blanditiis officia necessitatibus voluptas repellat quia
-              recusandae quos commodi, dolorum repudiandae est minus rem laborum
-              cupiditate dignissimos perspiciatis itaque sed nostrum quaerat.
-            </p>
-            <aside class="platform-logo">
-              <img src="/assets/image/logo_appstore_1.png" alt="" />
-              <img src="/assets/image/logo_playstore_1.png" alt="" />
-              <img src="/assets/image/logo_ps4_1.png" alt="" />
-              <img src="/assets/image/logo_nintendo.png" alt="" />
-            </aside>
-          </article>
-          <img src="/assets/image/main_image.jpg" alt="main image" />
-        </section>
 
+    <main>
+      <section class="first-content" id="home">
+        <article>
+          <h1>THE NEW OPEN-WORLD ACTION RPG</h1>
+          <p>
+            Enjoy the new open-world ARPG with anime style. You can play this game with your friends in co-op mode.
+            Genshin Impact is a cross-platform game available on iOS, Android, PS4, and PC. Soon, Genshin Impact will be
+            available on Nintendo Switch.
+          </p>
+          <aside>
+            <a href="https://apps.apple.com/us/app/genshin-impact/id1517783697">
+              <img src="assets/image/logo_appstore_1.png" alt="" />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=en&gl=US">
+              <img src="assets/image/logo_playstore_1.png" alt="" />
+            </a>
+            <a href="https://www.playstation.com/en-id/games/genshin-impact/">
+              <img src="assets/image/logo_ps_1.png" alt="" />
+            </a>
+          </aside>
+        </article>
+      </section>
+
+      <section id="featured">
         <section class="second-content">
           <article>
             <h2>WORLD BOSS</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptatem tenetur molestiae fuga ducimus ullam quis quod harum,
-              nulla quia suscipit inventore iste ex reiciendis numquam ipsam,
-              quos placeat eos corrupti.
+              There are few type of bosses such as normal bosses, weekly bosses and event bosses. Boss provide a lot of
+              good rewards to improve your character.
             </p>
           </article>
-          <img src="/assets/image/world_boss_1.jpg" alt="" />
+          <figure>
+            <img src="assets/image/world_boss_1.jpg" alt="" />
+            <figcaption>
+              Magatsu Mitake Narukami no Mikoto <br />
+              <i>Weekly Boss</i>
+            </figcaption>
+          </figure>
         </section>
 
         <section class="third-content">
-          <img src="/assets/image/character_3.png" alt="" />
-          <img src="/assets/image/event_rewards.jpg" alt="" />
+          <figure>
+            <img src="assets/image/character_4.jpg" alt="" />
+            <figcaption>Fischl<br /><i>Free Fischl During The Summertime Odyssey Event</i></figcaption>
+          </figure>
+          <figure>
+            <img src="assets/image/event_rewards.jpg" alt="" />
+          </figure>
           <article>
             <h2>EVENT REWARDS</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
-              hic cupiditate? Corporis cum neque veritatis ipsum libero?
-              Reprehenderit distinctio ut ex recusandae laborum, ea natus alias
-              illo fuga nihil aut.
+              Genshin Impact has a new or big event every five or six weeks. You can get a good amount of luxurious
+              rewards and even get a free character from the event. You can check the current event or upcoming event on
+              Genshin Impact official page.
             </p>
           </article>
         </section>
 
         <section class="fourth-content">
           <article>
-            <h2>BEAUTIFUL CHARACTER</h2>
+            <h2>AWESOME CHARACTER DESIGN</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ex
-              ea, facilis molestiae amet debitis quas harum quae voluptatem
-              dolorem. Dolorum deleniti et ad quo porro alias aliquam amet qui?
+              Genshin comes with awesome character design for both male and female character. You can obtain the
+              character through adventure in the game, gacha and event.
             </p>
           </article>
-          <img src="/assets/image/character_2.png" alt="" />
+          <figure>
+            <img src="assets/image/character_2.png" alt="" />
+            <figcaption>Raiden Shogun</figcaption>
+          </figure>
         </section>
 
         <section class="fifth-content">
           <h2>EXPLORE THE BIG WORLD</h2>
-          <div class="map">
+          <article class="map">
             <figure>
-              <img src="/assets/image/map/mondstadt.png" alt="Mondstadt" />
+              <img src="assets/image/map/mondstadt.png" alt="Mondstadt" />
               <figcaption>Mondstadt</figcaption>
             </figure>
             <figure>
-              <img src="/assets/image/map/enkanomiya.png" alt="Enkanomiya" />
+              <img src="assets/image/map/enkanomiya.png" alt="Enkanomiya" />
               <figcaption>Enkanomiya</figcaption>
             </figure>
             <figure>
-              <img src="/assets/image/map/inazuma.png" alt="Inazuma" />
+              <img src="assets/image/map/inazuma.png" alt="Inazuma" />
               <figcaption>Inazuma</figcaption>
             </figure>
             <figure>
-              <img src="/assets/image/map/liyue.png" alt="Liyue" />
+              <img src="assets/image/map/liyue.png" alt="Liyue" />
               <figcaption>Liyue</figcaption>
             </figure>
             <figure>
-              <img src="/assets/image/map/dragonspine.png" alt="Dragonspine" />
+              <img src="assets/image/map/dragonspine.png" alt="Dragonspine" />
               <figcaption>Dragonspine</figcaption>
             </figure>
             <figure>
-              <img src="/assets/image/map/sumeru.png" alt="Sumeru" />
+              <img src="assets/image/map/sumeru.png" alt="Sumeru" />
               <figcaption>Sumeru</figcaption>
             </figure>
             <figure>
-              <img src="/assets/image/map/the_chasm.png" alt="The Chasm" />
+              <img src="assets/image/map/the_chasm.png" alt="The Chasm" />
               <figcaption>The Chasm</figcaption>
             </figure>
-          </div>
+          </article>
         </section>
+      </section>
+      <aside class="about-me" id="about">
+        <h1>About Me</h1>
+        <section class="name">
+          <h2>Gilbert Tan</h2>
+          <p>Developer Wannabe</p>
+        </section>
+        <p>
+          A newbie in programming world. I'm trying to learn how to be a Web Developer. I've a dream to be a Web
+          Developer and iOS Developer in the future :)
+        </p>
+        <section class="social-logo">
+          <section class="email-logo">
+            <a href="mailto: gilbertyohanes95@gmail.com">
+              <img src="assets/image/email_logo_1.png" alt="" />
+            </a>
+          </section>
+          <section class="github-logo">
+            <a href="https://github.com/leuchtend5">
+              <img src="assets/image/github_logo.png" alt="" />
+            </a>
+          </section>
+        </section>
+        <section class="profile-photo">
+          <img src="assets/image/profile_picture(1).jpg" alt="" />
+        </section>
+      </aside>
+    </main>
 
-        <section class="about">About ME</section>
-      </main>
-      <footer>test</footer>
+    <footer>Dicoding Leuchtend</footer>
+
+    <div class="img-clicked">
+      <span>X</span>
+      <img src="" alt="" />
     </div>
   </body>
 </html>
